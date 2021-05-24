@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## makeCachMatrix take a matrix as argument and retetn a list contain of four function:
+## makeCachMatrix take a matrix as argument and retern a list contain of four function:
 ## 01-set()
 ## 02-get()
 ## 03-setinverse()
@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## cachesolve take a matrix as argument and return it's inverse 
+## cachesolve take the return of makeCachMatrix() function as argument and return it's inverse 
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
         if (!is.null(i)){
