@@ -68,7 +68,6 @@ rankall <- function(outcome, num = 'best') {
     
     return(return_df)
     }
-tail(rankall("heart failure"), 10)
 
 
 
